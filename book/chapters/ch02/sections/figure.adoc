@@ -1,0 +1,54 @@
+== 図
+
+* `[plantuml]`を書いたあとの文章は、図化する対象になる
+* PlantUMLの文法をそのまま使う
+** http://plantuml.com/
+** https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48
+* Graphvizのdot文法も使える
+** https://qiita.com/rubytomato@github/items/51779135bc4b77c8c20d
+
+
+.シーケンス図
+[plantuml]
+----
+actor ユーザー as user
+user -> ログイン : ログインする
+ログイン --> user:
+----
+
+
+.クラス図
+[plantuml]
+----
+class Phase {
+  int age
+  run()
+}
+
+class FirstPhase extends Phase {
+}
+
+class SecondPhase extends Phase {
+}
+----
+
+.ダイアグラム
+[ditaa]
+----
+                   +-------------+
+                   | Asciidoctor |-------+
+                   |   diagram   |       |
+                   +-------------+       | PNG out
+                       ^                 |
+                       | ditaa in        |
+                       |                 v
+ +--------+   +--------+----+    /---------------\
+ |        | --+ Asciidoctor +--> |               |
+ |  Text  |   +-------------+    |   Beautiful   |
+ |Document|   |   !magic!   |    |    Output     |
+ |     {d}|   |             |    |               |
+ +---+----+   +-------------+    \---------------/
+     :                                   ^
+     |          Lots of work             |
+     +-----------------------------------+
+----

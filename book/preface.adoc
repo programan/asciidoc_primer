@@ -1,0 +1,11 @@
+[preface]
+= はじめに
+
+本書はAsciiDoc形式の文章の書き方を個人的にまとめたものである。
+
+
+//=== 謝辞
+
+== 参考サイト
+
+https://asciidoctor.org/docs/user-manual

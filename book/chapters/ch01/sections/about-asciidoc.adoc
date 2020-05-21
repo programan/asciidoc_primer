@@ -1,0 +1,8 @@
+== AsciiDocとは
+
+. Markdownと同じく、軽量マークアップ言語の1つ
+.. Markdownと似ているが別物
+. 原型となるものはMarkdownよりも古い
+. 機能が豊富
+. ファイルについて属性を定義できる
+** doctypeとかtocとか

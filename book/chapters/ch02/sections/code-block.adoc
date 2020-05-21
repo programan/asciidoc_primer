@@ -1,0 +1,54 @@
+== コードブロック
+
+* `[source, 言語名]`ブロックの次の行にコード
+
+.lib.cpp
+[source,c++]
+---
+#pragma once
+namespace lib_base
+{
+    class ref_object
+    {
+    public:
+        virtual void delete_instance() = 0;
+        void inc_ref()
+        {
+            m_nRef++;
+        }
+   }
+}
+---
+
+.app.rb
+[source,ruby]
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+
+.data.xml
+[source,xml]
+----
+<section>
+  <title>Hoge Title</title>
+</section>
+----
+
+.ten.py
+[source,python]
+----
+import re
+from flask import Flask, request, render_template, redirect, jsonify, url_for
+import redis
+from datetime import datetime
+import os
+from member import Member
+
+# Flaskオブジェクトを取得
+app = Flask(__name__)
+----

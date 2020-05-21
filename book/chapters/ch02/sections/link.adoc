@@ -1,0 +1,38 @@
+== リンク
+
+URLをそのまま書くとリンクになる。また、リンク名を付けることもできる。
+
+
+* https://www.google.co.jp/
+* https://www.google.co.jp/[Google]
+* 文中にlink:http://asciidoctor.org/[リンク]を作る場合は、`link:`を付ける。
+
+<<<
+
+=== 外部ファイルのインクルード
+
+[%hardbreaks]
+ソースコードやテキストなどを外部コンテンツとして保存しておき、
+文書の任意の箇所に挿入できる。
+また、URLを指定して挿入することも可能。
+HTMLとして出力した場合にはリンクになる。
+
+* `include::file_name.adoc[]
+* `include::file_name.adoc[lines=1..3]
+
+[source,c++]
+----
+include::{sourcedir}/main.cpp[lines=6..14]
+----
+
+<<<
+
+=== イメージの挿入
+
+[%hardbreaks]
+image::ファイルパス[] で画像を表示できる。
+URLも指定可能。
+[]内にはオプションを指定可能
+
+.ゴーギャン作
+image::Paul_Gauguin.jpg[我々はどこから来たのか 我々は何者か 我々はどこへ行くのか,400,300,align="center"]

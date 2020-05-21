@@ -1,0 +1,15 @@
+== 数式
+
+* stem属性が有効であれば数式を表現することができる
+//* stem:[sqrt(4) = 2]
+//* stem:[sum_(i=1)^n i^3=((n(n+1))/2)^2]
+//* stem:[((n(n+1))/2)^2]
+//* stem:[root(3)(x)]
+* latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+* latexmath:[x = \log{a} y]
+* latexmath:[\ln{x}]
+
+[latexmath]
+++++
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+++++

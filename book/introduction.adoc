@@ -1,0 +1,11 @@
+[preface]
+= この本の概要
+
+ほぼほぼネットを探せば見つけられる情報ではあるが、その内の良く使うであろう項目を選んである。
+
+https://asciidoctor.org/docs/user-manual/
+
+
+*第1章* AsciiDocについてざっくりと
+
+*第2章* AsciiDocの記法についてざっくりと

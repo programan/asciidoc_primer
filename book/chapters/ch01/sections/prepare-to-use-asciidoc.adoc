@@ -1,0 +1,16 @@
+== AsciiDocを使うための準備
+
+
+=== エディタ
+
+テキスト形式なので、テキストエディタであれば何でも良い。
+
+
+=== AsciiDoctorの翻訳機のインストール
+
+テキスト形式だが、出来上った文書を読み易いPDFなどに変換するために翻訳機を使う。
+Docker imageがあるのでそれを使うのがイチバン楽である。
+
+https://hub.docker.com/r/asciidoctor/docker-asciidoctor
+
+日本語も数式も扱える状態になっている。

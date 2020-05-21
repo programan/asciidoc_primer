@@ -1,0 +1,104 @@
+//ドキュメントの属性を定義
+:lang: ja
+:doctype: book
+//:doctype: article
+//:doctype: manpage
+//使用するコードハイライトプログラム
+:source-highlighter: coderay
+//:source-highlighter: highlightjs
+//:source-highlighter: prettify
+//:source-highlighter: pygments
+//セクションに番号を振る
+:sectnums:
+//:sectnumlevels: 3
+//目次の位置(PDFだと常にtop)
+:toc: auto
+//:toc: right
+//:toc: left
+//:toc: top
+//macroに設定した場合は、任意の場所でtoc::[]を書き目次を挿入する
+//:toc: macro
+//:toc: preamble
+:toc-title: 目次
+//[preface]が無い場合は、ドキュメントヘッダと最初のセクションの間の文章をpreambleとして扱う
+//その際に自動で挿入されるpreface-titleを設定
+//:preface-title: 序文
+:preface-title: はじめに
+:last-update-label: 最終更新
+:chapter-label:
+//:chapter-label: 見出し1の接頭辞
+//目次にするレベル
+:toclevels: 3
+//表を作成した場合のタイトル(表1, 表2と番号が振られていく)
+:table-caption: 表
+:figure-caption: 図
+//脚注にアイコン
+:icons: font
+//脚注でアイコンが無い場合に挿入される文字列
+:note-caption: 注記
+:tip-caption: ヒント
+:warning-caption: 警告
+:important-caption: 重要
+:caution-caption: 注意
+
+:appendix-caption: 付録
+:example-caption: 例
+//数式のサポート(defaultはasciimath。別途インストールしてあればlatexmathを指定可能)
+//http://asciimath.org/
+//http://docs.mathjax.org/en/latest/tex.html
+:stem: latexmath
+//ファイルパスなど
+:mkdirs: true
+// :to_dir: ./output/
+// :to_file: {to_dir}/hogehoge.pdf
+//画像の場所
+:imagesdir: ./images
+//:imagesoutdir: {to_dir}/images
+:imagesoutdir: ./images
+//ソースコードの場所
+//:sourcedir: ./code_samples
+:sourcedir: {docdir}/code_samples
+//作成者など
+:author: programan
+:email: github@programan.com
+:description:
+:copyright:
+:revnumber: 0.0.1
+:revdate: 2020/05/20
+:version-label: Version
+//表紙を付ける場合(たぶんpdf形式でもいける)
+//:front-cover-image: image:asciidoc_primer_cover.png[width=1050,height=1600]
+//:front-cover-image: image:asciidoc_primer_cover.png[]
+//その他時前で属性定義
+:chaptersdir: {docdir}/book/chapters
+:my-sourcedir: {docdir}/code_samples
+
+//本文開始
+
+= AsciiDoc Primer
+
+:leveloffset: +1
+
+include::book/preface.adoc[]
+
+include::book/introduction.adoc[]
+
+include::book/ch01-getting-started.adoc[]
+
+include::book/ch02-asciidoc-syntax.adoc[]
+
+:leveloffset: -1
+
+
+<<<
+
+
+
+
+
+<<<
+
+
+
+
+<<<
