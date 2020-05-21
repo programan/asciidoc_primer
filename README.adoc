@@ -1,0 +1,34 @@
+= AsciiDoc Primer
+
+* 自分のためのAsciiDoc入門書
+* asciidoc_primer.adocから他のファイルをincludeする形でまとめてある
+* doctypeはbook
+
+ディレクトリ構成
+----
+├── asciidoc_primer.adoc
+├── book
+│   ├── ch01-getting-started.adoc
+│   ├── ch02-asciidoc-syntax.adoc
+│   ├── chapters
+│   │   ├── ch01
+│   │   │   └── sections
+│   │   │       ├── about-asciidoc.adoc
+│   │   │       ├── difference-of-markdown-and-asciidoc.adoc
+│   │   │       ├── prepare-to-use-asciidoc.adoc
+│   │   │       └── summary.adoc
+│   │   └── ch02
+│   │       └── sections
+│   │           ├── basic.adoc
+│   │           ├── code-block.adoc
+│   │           ├── document-attributes.adoc
+│   │           ├── figure.adoc
+│   │           ├── formatting.adoc
+│   │           ├── link.adoc
+│   │           └── math.adoc
+│   ├── introduction.adoc
+│   └── preface.adoc
+├── code_samples
+│   └── main.cpp
+└── images
+----
