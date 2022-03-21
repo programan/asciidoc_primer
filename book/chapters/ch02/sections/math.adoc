@@ -1,5 +1,11 @@
 == 数式
 
+=== 参考サイト
+
+* http://www.yosbits.com/wordpress/?page_id=6580
+
+=== 書き方
+
 * stem属性が有効であれば数式を表現することができる
 //* stem:[sqrt(4) = 2]
 //* stem:[sum_(i=1)^n i^3=((n(n+1))/2)^2]
@@ -13,3 +19,32 @@
 ++++
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ++++
+
+
+[latexmath]
+++++
+F(x) = \sum_{n=1}^{N} \frac{1}{N}
+++++
+
+[latexmath]
+++++
+  \frac{\pi}{2} =
+  \left( \int_{0}^{\infty} \frac{\sin x}{\sqrt{x}} dx \right)^2 =
+  \sum_{k=0}^{\infty} \frac{(2k)!}{2^{2k}(k!)^2} \frac{1}{2k+1} =
+  \prod_{k=1}^{\infty} \frac{4k^2}{4k^2 - 1}
+++++
+
+エネルギーと質量には latexmath:[E=mc^2] の関係がある。
+
+数式 latexmath:[e = mc^{2}] を含んだ文章
+
+数式 latexmath:[y = f(x)] を含んだ文章
+
+
+一次方程式 latexmath:[ax+b=0] の解は
+[latexmath]
+++++
+x = -\frac{b}{a}
+++++
+です。
+

@@ -52,9 +52,9 @@
 // :to_dir: ./output/
 // :to_file: {to_dir}/hogehoge.pdf
 //画像の場所
-:imagesdir: ./images
+:imagesdir: ./images_source
 //:imagesoutdir: {to_dir}/images
-:imagesoutdir: ./images
+:imagesoutdir: ./images_out
 //ソースコードの場所
 //:sourcedir: ./code_samples
 :sourcedir: {docdir}/code_samples
